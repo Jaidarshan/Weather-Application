@@ -1,1 +1,1 @@
-# A Weather Application using React JS
+# Weather Application using React JS
