@@ -67,12 +67,14 @@ function App() {
               placeholder="Enter RapidAPI Key"
               value={geoApiKey}
               onChange={(e) => setGeoApi(e.target.value)}
+              className="api-key-field"
             />
             <input
               type="text"
               placeholder="Enter OpenWeather API Key"
               value={weatherApiKey}
               onChange={(e) => setWeatherApi(e.target.value)}
+              className="api-key-field"
             />
             <button onClick={handleSetKeys}>Set API Keys</button>
           </div>

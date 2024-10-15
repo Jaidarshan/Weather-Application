@@ -74,6 +74,10 @@ p {
   font-size: 16px;
 }
 
+.modal .modal-content .api-key-field{
+  width: 90%;
+}
+
 /* Modal close button */
 .modal-content .close {
   position: absolute;
